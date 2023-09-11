@@ -8,14 +8,25 @@ This streamlit app allows for some exploration of the data: https://nfl-contract
 Dictionary:
 
 draft_year: the year they were drafted
+
 rnd: the round they were drafted in
+
 pick: the pick # they were selected at
+
 tm: the team that drafted them
+
 player: the name of the player
+
 g: the number of games the player played in their career
+
 search_key: the key that was used for joining, retained as it could be valuable for displaying
+
 year_signed: the year the contract was signed
+
 signing_tm: the team that signed them (this needs to be cleaned to match with 'tm')
+
 value: the total US dollar value of their contract at signing (not adjusted for inflation)
+
 gtd: the total US dollar guaranteed value of their contract at signing (not adjusted for inflation)
+
 value and gtd were normalized to the NFL salary cap for that year (value_norm and gtd_norm). This allows for comparison of contract values across years since the salary cap (generally) increases every year roughly aligned with inflation.
